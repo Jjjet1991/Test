@@ -1,0 +1,281 @@
+html, body {}
+
+h1 {
+    font-family: "Special Elite", cursive;
+    text-align: center;
+    height: 255px;
+    background-color: black;
+    color:white;
+    font-size: 75px;
+    padding:0%;
+    width:100%;
+    padding-top:5%;
+    margin:none;
+    z-index: 1;
+    margin-top:-5%;
+}
+
+#racecar {
+    height: 600px;
+    width:100%;
+}
+
+
+h2.footer {
+    font-family: "Special Elite", cursive;
+    font-size: 70px;
+    float:right;
+    color:grey;
+    margin-top:80px;
+    display: block;
+    opacity: 34%;
+    width:100%;
+}
+
+    
+.copy{ 
+    font-family: "Manrope", sans-serif;
+    text-align:justify;
+    color: rgb(43, 40, 40);
+    text-indent: 5px;
+    font-size:20px;
+    }
+
+
+.container {
+    text-align:left;
+    float:left;
+    margin-left: 160px;
+    padding: 0px;
+}
+
+#adventures{
+    float:right;
+    margin-right:10%;
+    margin-left:-5%;
+}
+
+
+
+#Jasonpic {
+    float: right;
+    margin-right:5%;
+    margin-top:3%;
+}
+
+#EarlyPic{
+    margin-top:10%;
+    padding:none;
+    margin-right:5px;
+    }
+
+#FamilyPics{
+    margin-top:10%;
+    float:left;
+    margin-left:5%;
+}
+
+#JasonAdv {
+    margin-top:15%;
+    float:right;
+    margin-left:-7%;
+    height:1300px;
+    width:850px;
+    margin-right:10%;
+    
+}
+
+#years, #family2, #Adventures, #Forty, #famlink, #sail, #under {
+    margin-top:100px;
+}
+
+
+.figure{
+    float:right;
+    margin-top:5%;
+    margin-right:5%;
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color:gray;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    margin-right:10%; 
+  }
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+#home {
+    padding:5%;
+    margin-left:150px;
+    float:left;
+    
+}
+ .nav{
+     font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+ h3{
+     font-family: 'Merriweather Sans', sans-serif;
+     font-size:1.25em;
+     color:gray;
+     margin-top:3%;
+ }
+
+ h2 {
+    font-family: "Special Elite", cursive;
+
+ }
+
+#sailphotos {
+    margin-left:-15%;
+     float:right;
+     margin-top:15%;
+     margin-right:5%;
+     
+     
+ }
+
+#under{
+    font-size:2.5em;
+    text-align:center;
+}
+
+#share{
+    margin-top:10%;
+}
+
+#early {
+    margin-left:5%;    
+}
+
+
+#mexico{
+    margin-left:5%;
+}
+
+#trinity{
+    padding:0;
+    margin-left:0;
+    margin-top:15%;
+}
+
+#years {
+    margin-left:-2%;
+}
+
+#fam {
+    margin-left:5%;
+    margin-top:10%;
+}
+
+#thisis{
+    margin-left:5%;
+    margin-top:10%;
+
+}
+
+
+#thisisphoto {
+    margin-left:-35%;
+    margin-right:5%;
+    float:right;
+    margin-top:190px;
+    
+    
+}
+
+#carousel {
+    margin-top:15%;
+    margin-left: -15%;
+    padding:0;
+    margin-right:10%;
+}
+
+
+
+#sailtxt{
+    margin-left:5%;
+    margin-top:10%;
+}
+
+#share {
+    margin-left:5%;
+    margin-top:10%;
+}
+
+#under {
+    text-align:center;
+    font-size:3em;
+}
+
+.logo {
+    height:50px;
+    width:50px;
+}
+
+#trinityinfo, #zachinfo {
+    margin-top:5%;
+    clear:both;
+    background-color:rgb(211,211,211);
+    border: 3px solid black;
+}
+
+.list-group-item {
+    background-color:rgb(211,211,211);
+}
+
+#adventurephotos {
+    margin-right:2%;
+    float:left;
+    margin-top:10%;
+    
+
+}
+
+.mexico {
+    margin-top:4%;
+    clear:both;
+    margin-left:20%;
+
+}
