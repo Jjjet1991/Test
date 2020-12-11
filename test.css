@@ -13,11 +13,15 @@ h1 {
     margin:none;
     z-index: 1;
     margin-top:-5%;
+    margin-left:0;
+    m
 }
 
 #racecar {
     height: 600px;
     width:100%;
+    margin-left:0;
+    margin-right:0;
 }
 
 
@@ -50,9 +54,10 @@ h2.footer {
 }
 
 #adventures{
+    margin-left:-10%;
     float:right;
     margin-right:10%;
-    margin-left:-5%;
+   
 }
 
 
@@ -266,7 +271,7 @@ h2.footer {
 }
 
 #adventurephotos {
-    margin-right:2%;
+    margin-right:-5%;
     float:left;
     margin-top:10%;
     
@@ -278,4 +283,10 @@ h2.footer {
     clear:both;
     margin-left:20%;
 
+}
+
+.container-fluid{
+    margin-left:0;
+    margin-right:0;
+    padding:0;
 }
