@@ -70,8 +70,9 @@ h2.footer {
 
 #EarlyPic{
     margin-top:10%;
-    padding:none;
-    margin-right:5px;
+    height:300px;
+    width:300px;
+    margin-bottom:15%;
     }
 
 #FamilyPics{
@@ -91,7 +92,7 @@ h2.footer {
 }
 
 #years, #family2, #Adventures, #Forty, #famlink, #sail, #under {
-    margin-top:100px;
+    margin-top:110px;
 }
 
 
@@ -206,18 +207,19 @@ h2.footer {
 }
 
 #years {
-    margin-left:-2%;
+    margin-left:5%;
+    
+
 }
 
 #fam {
     margin-left:5%;
-    margin-top:10%;
+    margin-top:20%;
 }
 
 #thisis{
     margin-left:5%;
-    margin-top:10%;
-
+    
 }
 
 
@@ -289,4 +291,18 @@ h2.footer {
     margin-left:0;
     margin-right:0;
     padding:0;
+    margin-top:0;
+}
+
+.kid{
+    height:300px;
+    width:300px;
+}
+
+.Family{
+    margin-top:15%;
+}
+
+#fam {
+    margin-top:20%;
 }
