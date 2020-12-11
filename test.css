@@ -54,9 +54,9 @@ h2.footer {
 }
 
 #adventures{
-    margin-left:-10%;
     float:right;
-    margin-right:10%;
+    margin-left:-20%;
+   
    
 }
 
@@ -276,6 +276,7 @@ h2.footer {
     margin-right:-5%;
     float:left;
     margin-top:10%;
+    margin-left:5%;
     
 
 }
