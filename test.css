@@ -223,24 +223,6 @@ h2.footer {
 }
 
 
-#thisisphoto {
-    margin-left:-35%;
-    margin-right:5%;
-    float:right;
-    margin-top:190px;
-    
-    
-}
-
-#carousel {
-    margin-top:15%;
-    margin-left: -15%;
-    padding:0;
-    margin-right:10%;
-}
-
-
-
 #sailtxt{
     margin-left:5%;
     margin-top:10%;
@@ -282,7 +264,8 @@ h2.footer {
 }
 
 .mexico {
-    margin-top:4%;
+    margin-top:7%;
+    margin-bottom: 10%;
     clear:both;
     margin-left:20%;
 
@@ -306,4 +289,24 @@ h2.footer {
 
 #fam {
     margin-top:20%;
+}
+
+#ticar{
+   text-align:center;
+}
+
+#forty {
+    width:75%;
+    margin-top:2%;
+}
+
+#button{
+    color:white;
+    background-color:gray;
+    border:1px solid black;
+    float:left;
+    margin-left:30%;
+    width:500px;
+    font-family: "Special Elite", cursive;
+    font-size:2em;
 }
