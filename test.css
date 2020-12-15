@@ -1,4 +1,19 @@
-html, body {}
+html, body {
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
 
 h1 {
     font-family: "Special Elite", cursive;
@@ -14,6 +29,8 @@ h1 {
     z-index: 1;
     margin-top:-3%;
     margin-left:0;
+    overflow:hidden;
+    margin-right:0;
     
 }
 
@@ -22,20 +39,52 @@ h1 {
     width:100%;
     margin-left:0;
     margin-right:0;
+    overflow: hidden;
+}
+
+#home {
+    padding:5%;
+    margin-left:150px;
+    float:left;
+    margin-right:0;
+}
+
+#Jasonpic {
+    float: right;
+    margin-right:0%;
+    margin-top:3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
+    overflow: hidden;
 }
 
 
-h2.footer {
+
+/*------------------------------Whole Page Style------*/
+
+h2 {
     font-family: "Special Elite", cursive;
-    font-size: 70px;
-    float:right;
-    color:grey;
-    margin-top:80px;
-    display: block;
-    opacity: 34%;
-    width:100%;
+
+ }
+
+ h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:1.25em;
+    color:gray;
+    margin-top:3%;
 }
 
+h4 {
+    font-family: 'Lobster', cursive;
+    text-align:center;
+    text-decoration:underline;
+}
+
+
+
+#years, #family2, #Adventures, #Forty, #famlink, #saila, #sharea {
+    margin-top:110px;
+    overflow: hidden;
+}
     
 .copy{ 
     font-family: "Manrope", sans-serif;
@@ -43,6 +92,9 @@ h2.footer {
     color: rgb(43, 40, 40);
     text-indent: 5px;
     font-size:20px;
+    margin:5%;
+    overflow:hidd
+    
     }
 
 
@@ -51,57 +103,25 @@ h2.footer {
     float:left;
     margin-left: 160px;
     padding: 0px;
+    margin-right:0px;
 }
 
-#adventures{
-    float:right;
-    margin-left:-20%;
-   
-   
+.container-fluid{
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    margin-top:0;
 }
-
-
-
-#Jasonpic {
-    float: right;
-    margin-right:5%;
-    margin-top:3%;
-}
-
-#EarlyPic{
-    margin-top:10%;
-    height:300px;
-    width:300px;
-    margin-bottom:15%;
-    }
-
-#FamilyPics{
-    margin-top:10%;
-    float:left;
-    margin-left:5%;
-}
-
-#JasonAdv {
-    margin-top:15%;
-    float:right;
-    margin-left:-7%;
-    height:1300px;
-    width:850px;
-    margin-right:10%;
-    
-}
-
-#years, #family2, #Adventures, #Forty, #famlink, #sail, #under {
-    margin-top:110px;
-}
-
 
 .figure{
     float:right;
     margin-top:5%;
-    margin-right:5%;
+    margin-right:2%;
+    
 }
 
+
+/*---------------------------Nav Bar-----------------------*/
 
 .sidenav {
     height: 100%; 
@@ -123,10 +143,12 @@ h2.footer {
     font-size: 25px;
     color: black;
     display: block;
+    margin-top:10%;
   }
   
   .sidenav a:hover {
     color: #f1f1f1;
+    border: 1px solid black;
   }
   
 
@@ -136,106 +158,48 @@ h2.footer {
     .sidenav a {font-size: 18px;}
   }
 
-
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width:33.33%;}
-.col-5 {width:41.66%;}
-.col-6 {width:50%;}
-.col-7 {width:58.33%;}
-.col-8 {width:66.66%;}
-.col-9 {width:75%;}
-.col-10 {width:83.33%;}
-.col-11 {width:91.66%;}
-.col-12 {width:100%;}
-
-#home {
-    padding:5%;
-    margin-left:150px;
-    float:left;
-    
-}
- .nav{
-     font-family: 'Open Sans Condensed', sans-serif;
- }
-
- h3{
-     font-family: 'Merriweather Sans', sans-serif;
-     font-size:1.25em;
-     color:gray;
-     margin-top:3%;
- }
-
- h2 {
-    font-family: "Special Elite", cursive;
-
- }
-
-#sailphotos {
-    margin-left:-15%;
-     float:right;
-     margin-top:15%;
-     margin-right:5%;
-     
-     
- }
-
-#under{
-    font-size:2.5em;
-    text-align:center;
+  .nav{
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#share{
+/*-------------------------- Early Years-------------------*/
+
+#EarlyPic{
     margin-top:10%;
-}
+    height:300px;
+    width:300px;
+    margin-bottom:15%;
+    }
 
-#early {
-    margin-left:5%;    
-}
-
-
-#mexico{
-    margin-left:5%;
-}
-
-#trinity{
-    padding:0;
-    margin-left:0;
-    margin-top:15%;
-}
+ #early #years {
+     margin-left:2%; 
+     overflow: hidden;   
+    }
 
 #years {
-    margin-left:5%;
-    
+    margin-left:0%;
+    margin-right:0;
+    }
 
+    #mom, #dad {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.2);
+       
+    }
+
+
+    /*--------------------------Family-----------------------------------*/
+
+
+#FamilyPics{
+    margin-top:10%;
+    float:left;
+    margin-left:0%;
+    margin-right:0;
 }
 
 #fam {
     margin-left:5%;
     margin-top:20%;
-}
-
-#thisis{
-    margin-left:5%;
-    
-}
-
-
-#sailtxt{
-    margin-left:5%;
-    margin-top:10%;
-}
-
-#share {
-    margin-left:5%;
-    margin-top:10%;
-}
-
-#under {
-    text-align:center;
-    font-size:3em;
 }
 
 .logo {
@@ -248,18 +212,31 @@ h2.footer {
     clear:both;
     background-color:rgb(211,211,211);
     border: 3px solid black;
+    margin-right:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
 }
 
 .list-group-item {
     background-color:rgb(211,211,211);
 }
 
+
+/*--------------------------Adventure-----------------------------*/
+
+
+#adventures{
+    float:right;
+    margin-left:-20%;  
+   
+}
+
 #adventurephotos {
     margin-right:-5%;
     float:left;
     margin-top:10%;
-    margin-left:5%;
+    margin-left:3%;
     
+   
 
 }
 
@@ -271,43 +248,96 @@ h2.footer {
 
 }
 
-.container-fluid{
-    margin-left:0;
+#jpmex1, #jpmex2, #jpmex3, #jpmex4, #jpmex5 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.5);
+    margin-top: 25%;
+}
+
+/*----------------------This Is 40--------------------------------------*/
+
+#thisis{
+    margin-left:5%;
     margin-right:0;
-    padding:0;
-    margin-top:0;
-}
-
-.kid{
-    height:300px;
-    width:300px;
-}
-
-.Family{
-    margin-top:15%;
-}
-
-#fam {
-    margin-top:20%;
 }
 
 #ticar{
-   text-align:center;
+    text-align:center;
+    width:66.66;
+    margin-right:0;
+ }
+ 
+ #forty {
+     width:75%;
+     margin-top:2%;
+     margin-right:5%;
+ }
+ 
+ #button{
+     color:white;
+     background-color:gray;
+     border:1px solid black;
+     float:left;
+     margin-top:5%;
+     margin-left:30%;
+     width:500px;
+     font-family: "Special Elite", cursive;
+     font-size:2em;
+ }
+
+
+
+ /*----------------------Sail Away----------------------------------------------------------*/
+
+ #sail {
+    margin-left :15%;
+    margin-right:3%;
+ }
+
+#sailpics {
+    margin-top:150px;
+     float:left;   
+     
+ }
+
+ #sailboat1, #sailboat2 {
+     margin-top:10%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
+ }
+
+ #sailtxt {
+     float:right;
+     margin-right:15%;
+ }
+
+
+
+/*-------------------------------Share A Memory-----------------------------*/
+
+#memory{
+    margin-left:5%;
+    
 }
 
-#forty {
-    width:75%;
-    margin-top:2%;
-}
+/*-------------------------------------Footer-------------------------------------------*/
 
-#button{
+
+#footer {
+    height :150px;
+    background-color:black;
+    margin-top:10%;
+    width:100%;
     color:white;
-    background-color:gray;
-    border:1px solid black;
-    float:left;
-    margin-top:5%;
-    margin-left:30%;
-    width:500px;
-    font-family: "Special Elite", cursive;
-    font-size:2em;
+    text-align:center;
+    padding:3%;
+    margin-top:10%;
+
+
 }
+
+
+#footer h2 {
+    font-size:60px;
+
+}
+
+
