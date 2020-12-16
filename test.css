@@ -185,33 +185,48 @@ h4 {
 
     /*--------------------------Family-----------------------------------*/
 
+#famtxt {
+    margin-right: 2%;
+}
+
 #family {
     margin-left:7%;
     width:auto;
     float:left;
     margin-right:5%;
+    margin-top: 5%;
 }
 
-
 #famphotos {
-    margin-top:10%;
-    float:right;
-    margin-left:5%;
-    margin-right:0;
+    margin-top:50px;
+    position: inline;
 }
 
 .logo {
     height:50px;
     width:50px;
+    
 }
 
-#trinityinfo, #zachinfo {
+#trinityinfo {
+    margin-left:25px;
+    margin-right: 0px;
+    background-color:rgb(211,211,211);
+    border: 3px solid black;
+    margin-top : 10%;
+    margin-bottom: 5%;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
+
+}
+
+
+
+#zachinfo {
     margin-left:2px;
     background-color:rgb(211,211,211);
     border: 3px solid black;
-    margin-top : 7%;
-    margin-bottom: 5%;
-   
+    margin-top : 10%;
+    margin-bottom: 5%;   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.5);
 }
 
@@ -219,8 +234,10 @@ h4 {
     background-color:rgb(211,211,211);
 }
 
-.card {
-    margin:0px;
+.card-title{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.75em;
+    text-decoration: underline;
 }
 
 /*--------------------------Adventure-----------------------------*/
