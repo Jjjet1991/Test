@@ -275,20 +275,26 @@ h4 {
 /*----------------------This Is 40--------------------------------------*/
 
 #thisis{
-    margin-left:10%;
+    margin-left:5%;
     margin-right:0;
 }
 
 #ticar{
-    text-align:center;
-    width:66.66;
+    float:right;
     margin-right:0;
+    margin-left:3%;
+    margin-top: 15%;
+
  }
  
  #forty {
-     width:75%;
-     margin-top:2%;
-     margin-right:5%;
+     float:left;
+     margin-left:5%;
+ }
+
+ #shark {
+     float:left;
+     margin-left: -7%;
  }
  
  #button{
